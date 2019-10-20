@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Web Paint</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	</head>
+
+	<body onload="fnInitialise();">
+		<div>
+			<canvas id="cnCanvas" onmousemove="fnTrackMouse(event);" width="500" height="500">
+			</canvas>
+		</div>
+
+		<h3>Colors</h3>
+		<div id="colorBar">
+      <div id="blackWhiteContainer">
+        <div id="blackSelector" onclick="fnActivateColour(this)"></div>
+        <div id="whiteSelector" onclick="fnActivateColour(this)"></div>
+      </div>
+			<div id="colourSelectors">
+      </div>
+      <div id="RGBSelector">
+      </div>
+		</div>
+
+		<h3>Tools</h3>
+		<div id="toolBar">
+			<div id="pencil" onclick="switchTool(this)"> </div>
+			<div id="rubber" onclick="switchTool(this)"> </div>
+			<input id="size" value="12" style="border: solid black 2px;"></input>
+		</div>
+
+		<button id="downloadBtn" onclick="downloadImage()"><span>Download</span><i class="fas fa-download"></i></button>
+	</body>
+</html>

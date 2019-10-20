@@ -1,0 +1,85 @@
+body {
+  background-color: #fafafa;
+}
+
+#cnCanvas {
+  background-color: #f0f0f0;
+  cursor: url('/cursor30.png') 0 17, auto;
+}
+
+h3{
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#colorBar, #toolBar{
+  display: flex;
+}
+
+#colourSelectors{
+  display: flex;
+}
+
+.color{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  border: solid white 2px;
+}
+
+#pencil, #rubber, #size{
+  font-size: 21px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#pencil{
+  background-image: url('/cursor48.png');
+  background-repeat: no-repeat;
+  border-bottom: solid black 2px;
+}
+
+#rubber{
+  background-image: url('/eraser50.png');
+  background-repeat: no-repeat;
+}
+
+#downloadBtn{
+  margin-top: 23px;
+  margin-left: 5px;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  display:inline-block;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  background-color: orange;
+}
+
+#downloadBtn i{
+  font-size: 16px;
+  padding-left: 7px;
+}
+
+#downloadBtn:hover i{
+  padding-left: 12px;
+  transition: padding 0.5s ease-in-out;
+}
+
+#downloadBtn:hover{
+  transition: padding 0.5s ease-in-out;
+  background-color: #f8a100;
+}
+
+#downloadBtn:active{
+  transition: padding 0.5s ease-in-out;
+  transform: translateY(-4px);
+}
