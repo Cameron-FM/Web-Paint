@@ -4,7 +4,7 @@ body {
 
 #cnCanvas {
   background-color: #f0f0f0;
-  cursor: url('/cursor30.png') 0 17, auto;
+  cursor: url('cursor30.png') 0 17, auto;
 }
 
 h3{
@@ -38,13 +38,13 @@ h3{
 }
 
 #pencil{
-  background-image: url('/cursor48.png');
+  background-image: url('cursor48.png');
   background-repeat: no-repeat;
   border-bottom: solid black 2px;
 }
 
 #rubber{
-  background-image: url('/eraser50.png');
+  background-image: url('eraser50.png');
   background-repeat: no-repeat;
 }
 
