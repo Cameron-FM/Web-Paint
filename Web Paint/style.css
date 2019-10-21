@@ -1,5 +1,6 @@
 body {
   background-color: #fafafa;
+  display: flex;
 }
 
 #cnCanvas {
@@ -8,9 +9,17 @@ body {
 }
 
 h3 {
-  margin-top: 35px;
+  margin-top: 5px;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
+}
+
+#options {
+  margin-left: 20px;
+}
+
+#tools {
+  margin-top: 35px;
 }
 
 #colorBar,

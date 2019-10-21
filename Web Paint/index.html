@@ -14,28 +14,31 @@
 			</canvas>
 		</div>
 
-		<h3>Colors</h3>
-		<div id="colorBar">
-      		<div id="blackWhiteContainer">
-				<div id="whiteSelector" onclick="fnActivateColour(this)"></div>
-        		<div id="blackSelector" onclick="fnActivateColour(this)"></div>
-			</div>
-			  
-			<div id="colourSelectors">
-	  		</div>
-		</div>
-
-		<div id="RGBSelector">
-		</div>
 		
+		<div id="options">
+			<h3>Colors</h3>
+			<div id="colorBar">
+				<div id="blackWhiteContainer">
+					<div id="whiteSelector" onclick="fnActivateColour(this)"></div>
+					<div id="blackSelector" onclick="fnActivateColour(this)"></div>
+				</div>
+				
+				<div id="colourSelectors">
+				</div>
+			</div>
 
-		<h3>Tools</h3>
-		<div id="toolBar">
-			<div id="pencil" onclick="switchTool(this)"> </div>
-			<div id="rubber" onclick="switchTool(this)"> </div>
-			<input id="size" value="12" style="border: solid black 2px;"></input>
+			<div id="RGBSelector">
+			</div>
+			
+
+			<h3 id="tools">Tools</h3>
+			<div id="toolBar">
+				<div id="pencil" onclick="switchTool(this)"> </div>
+				<div id="rubber" onclick="switchTool(this)"> </div>
+				<input id="size" value="12" style="border: solid black 2px;"></input>
+			</div>
+
+			<button id="downloadBtn" onclick="downloadImage()"><span>Download</span><i class="fas fa-download"></i></button>
 		</div>
-
-		<button id="downloadBtn" onclick="downloadImage()"><span>Download</span><i class="fas fa-download"></i></button>
 	</body>
 </html>
